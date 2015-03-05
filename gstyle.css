@@ -1,0 +1,122 @@
+<style>
+* {
+    font-family: arial,sans-serif;
+}
+
+
+.header{
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: #404040;
+    height: 30px;
+    padding-right: 10px;
+    /*padding-top: 20px;*/
+    float: right;
+    display: table;
+    text-align: right;
+    vertical-align: middle;
+    /*Not sure why vertical-align didn't inherit?*/
+    /*white-space: nowrap;*/
+    /*display: table-cell;*/
+    /*display: inline-block;*/
+}
+
+#user{
+    height: 24px;
+    width: 60px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header_text{
+    height:24px;
+    width:34px;
+    padding-left: 15px; 
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.icon{
+    height:30px;
+    width:30px;
+    padding-left: 15px; 
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.center {
+    font-family: arial,sans-serif;
+    display: block;
+    text-align: center;
+    padding-top: 160px;
+    width: 100%;
+    /*position: relative;*/
+}
+
+#search {
+    width: 100%; 
+    height: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+input[type=text] {
+    width: 568px; 
+    height: 28px;
+    border: 1px solid #d9d9d9;
+    border-top-color: #c0c0c0;
+    background: url(gsri2sm.gif) no-repeat right;
+}
+
+.button {
+    -webkit-appearance: none;
+    font-size: 11px;
+    font-weight: bold;
+    color: #444;
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    border-radius: 2px;
+    /*Not doing mouseover, but if I was: 
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);*/
+    height: 29px;
+    line-height: 27px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.footer{
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: rgb(102,102,102);
+    background:#f2f2f2;
+    border-top:1px solid;
+    border-color:#e0e0e0;
+    margin-top: 40px;
+    height:40px;
+    width:100%;
+    position:absolute;
+    bottom:0;
+}
+
+.leftfoot{
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rightfoot{
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+</style>
+
